@@ -40,3 +40,4 @@ input("Press Enter to exit...")
 PER = accuracy / energy_proxy
 
 print("Performance-to-Energy Ratio (PER): {:.2f}".format(PER))
+input("Press Enter to exit...")
