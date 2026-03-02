@@ -34,7 +34,9 @@ print("Number of Iterations:", kmeans.n_iter_)
 # Here, lower iterations = less energy
 energy_proxy = (kmeans.n_iter_ / max_iter) * 100
 print("Estimated Energy Proxy: {:.2f}%".format(energy_proxy))
+input("Press Enter to exit...")
 
 # Performance-to-Energy Ratio (PER)
 PER = accuracy / energy_proxy
+
 print("Performance-to-Energy Ratio (PER): {:.2f}".format(PER))
